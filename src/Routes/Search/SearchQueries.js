@@ -9,6 +9,7 @@ export const SEARCH = gql`
       likeCount
     }
     searchUser(term: $term) {
+      id
       avatar
       username
       isFollowing

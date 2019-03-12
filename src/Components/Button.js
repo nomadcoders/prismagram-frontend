@@ -12,6 +12,7 @@ const Container = styled.button`
   text-align: center;
   padding: 7px 0px;
   font-size: 14px;
+  cursor: pointer;
 `;
 
 const Button = ({ text }) => <Container>{text}</Container>;
